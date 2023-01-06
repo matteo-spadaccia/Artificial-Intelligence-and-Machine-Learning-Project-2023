@@ -1,3 +1,3 @@
-# Artificial Intelligence and machine Learning Project
+# Artificial Intelligence and Machine Learning Project
 
 .....

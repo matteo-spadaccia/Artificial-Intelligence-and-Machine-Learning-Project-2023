@@ -28,8 +28,37 @@ The python packages that we mainly used are:
 - Seaborn;
 - Matplotlib;
 
-During this tools, we computed the age distribution of the customers, findable above:
+## Articles dataset
+We grouped articles following the two major features in our possesion representing them:
+- their colours
+<img src="images/articles per garment colours.png">
+
+- their type
+<img src="images/articles per garment group.png">
+
+## Customers dataset
+For the customers and the transactions datasets, we computed statistics concerning:
+- the age distribution of the customers:
 <img src="images/age distribution.png">
 
+- the percentage of the customers which are club member over the total number of customers. 
+<img src="images/club members over total.png">
+<img src="images/club members per age range.png">
+
+- the percentage of the customers subscribed to the fashion news over the total number of customers. 
+<img src="images/subscribers over total.png">
+<img src="images/subscribers per age range.png">
+
+The reason of the high similarity of these features is due to their high correlation (about 0.98): it is very likely that a customer being a club member will also be a subscriber to the fashion news letter and vice versa.
+
+## Transations dataset
+Crossing the information between the articles and the transactions datasets, we managed to compute the average purchase per age range, dividing the customers in age bins of five-years:
+<img src="images/purchases per age range.png">
+
+# Experimental design
+
+# Results
+
+# Conclusions
 
 

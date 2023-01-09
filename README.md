@@ -31,7 +31,7 @@ The python packages that we mainly used are:
 ## Articles dataset
 We grouped articles following the two major features in our possesion representing them:
 - their colours
-<img src="images/articles per garment colours.png">
+<img src="images/articles per colours.png">
 
 - their type
 <img src="images/articles per garment group.png">

@@ -1,34 +1,35 @@
 # Artificial Intelligence and Machine Learning project on recommender systems
-
--Lischi Maria Chiara (271281)
--Pacielli Gabriele (267701)
--Spadaccia Matteo (277141)
+- Lischi Maria Chiara (271281)
+- Pacielli Gabriele (267701)
+- Spadaccia Matteo (277141)
 
 ## Section 1) Introduction
-As a team, we have been inquired to increase revenues of a prestigious fashion firm improving the recommender system of 
-the platform testing different recommendation systems.
+This work consists in the implementation of different recommender systems, made for a clothing store. Before deeping into the recommender systems, a large part of the project is dedicated to the Exploratory Data Analysis and visualization of the data.
 
 ## Section 2) Methods
-### Data understanding
-We received three dataset with relevant information about: Customers, transactions and articles. To understand the meaning of these data we conduced a deep explanatory data analysis
-The first dataset, recsys_articles, is composed by the following attributes: an articled id linked to the product name, the product type id with its following name,the colour of the product with very detailed attributes, then the department, group of membership, section and type of garment.
-The second dataset, recsys_customers, on the other hand, gives information about the customer which is uniquely identified by the customer id, then tells us whether the customer is part of the special club member and if receives the newsletter or not and finally the age.
-The third dataset, recys_transactions, last but not least concerns the purchases done by each customer identified in the customer dataset on a certain date.
+We worked over three different datasets, which we analyzed deeply through EDA.
 
-### Preparing data 
-During the EDA we found null values in the customer dataset. We calculated the percentage of null values and then decided that would have been better removing those values instead of filling with false data. The same operation has been executed with the article dataset 
-because of some undefined or unknown values. For the sake of simplicity we created dataframes when needed. 
+### Data overview
+The three datasets we worked over are:
+- 'recsys_customers.csv', which contains information about 41253 different customers. For each customer, we have data about their age, and whether or not they have a club membership or are subscribed to the fashion newsletter of the clothing shop. 
+- 'recsys_articles.csv', which contains information about 6536 articles, for each of which we know the value of 21 different attributes, mainly concerning the type, colour and group of the articles.
+- 'recsys_transactions.csv', which contains informations about 369113 transactions; specifically the date in which the transaction happened, the costumer who made it and the article that was bought are known. 
 
-To process data it is crucial to understand its features invisible at the naked eye, using different python packs such as:
+### Data preparation
+We loaded the data into three different pandas dataframes and cleaned them getting rid of invalid values, that were present both the customers and the articles datas
+ets. This choice is justified by the fact that the percentage of invalid data was very low with respect to the total amount of data available.
 
-1) Pandas 
-2) Numpy 
-3) Sklearn 
-4) Matplot.lib
-5) Seaborn
-6) Collection 
+# Exploratory Data Analysis and Data Visualization
+To gain a deeper understanding of the dataset, we examineted and analyzed it with the aim to have a good understanding of it for in order to be able to build different recommender systems. The performed analysis was made for understanding the characteristics of the dataset, identifying patterns and relationships. Techniques of data visualization, statistical analysis, and data transformation were used. 
 
-##Articles 
+The python packages that we mainly used are: 
+- Numpy;
+- Pandas;
+- Seaborn;
+- Matplotlib;
+
+During this tools, we computed the age distribution of the customers, findable above:
+(images/age distribution 'age distribution')
 
 
 

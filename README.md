@@ -1,9 +1,7 @@
-# Artificial Intelligence and Machine Learning Project
+# Artificial Intelligence and Machine Learning project on recommender systems
 
 -Lischi Maria Chiara (271281)
-
 -Pacielli Gabriele (267701)
-
 -Spadaccia Matteo (277141)
 
 ## Section 1) Introduction
@@ -11,7 +9,7 @@ As a team, we have been inquired to increase revenues of a prestigious fashion f
 the platform testing different recommendation systems.
 
 ## Section 2) Methods
-###Data understanding
+### Data understanding
 We received three dataset with relevant information about: Customers, transactions and articles. To understand the meaning of these data we conduced a deep explanatory data analysis
 The first dataset, recsys_articles, is composed by the following attributes: an articled id linked to the product name, the product type id with its following name,the colour of the product with very detailed attributes, then the department, group of membership, section and type of garment.
 The second dataset, recsys_customers, on the other hand, gives information about the customer which is uniquely identified by the customer id, then tells us whether the customer is part of the special club member and if receives the newsletter or not and finally the age.

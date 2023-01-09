@@ -29,7 +29,7 @@ The python packages that we mainly used are:
 - Matplotlib;
 
 During this tools, we computed the age distribution of the customers, findable above:
-(images/age distribution 'age distribution')
+<img src="images/age distribution.png">
 
 
 

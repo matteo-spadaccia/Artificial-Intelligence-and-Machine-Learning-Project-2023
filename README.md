@@ -1,4 +1,4 @@
-# Artificial Intelligence and Machine Learning project on recommender systems
+# Artificial Intelligence and Machine Learning project - recommender systems
 - Lischi Maria Chiara (271281)
 - Pacielli Gabriele (267701)
 - Spadaccia Matteo (277141)
